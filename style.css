@@ -1,0 +1,75 @@
+html,
+
+body {
+    height: 100%;
+}
+
+.greetings,
+p,
+h1,
+h2 {
+    font-family: Arial, Serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: antiquewhite;
+    padding: 5px;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 25%;
+    margin-bottom: 3em;
+    background-color: cadetblue;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 800;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    align-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    height: 25%;
+    margin-bottom: 3em;
+    background-color: cadetblue;
+}
